@@ -74,8 +74,26 @@ ul {
 .nav-link.contact {
     color: #757575;
 }
-.nav-link:hover, .nav-link:focus {
+.header-mail.icon {
+    width: 16px;
+    height: 11px;
+
+    fill: #AFB1B8;
+}
+.header-phone.icon {
+    width: 10px;
+    height: 15px;
+
+    fill: #AFB1B8;
+}
+.nav-link:hover,
+.nav-link:focus,
+.header-mail:hover,
+.header-mail:focus,
+.header-phone:hover,
+.header-phone:focus {
     color: var(--primary-page-color);
+    fill: var(--primary-page-color);
 }
 .header-conteiner {
     margin: 0 auto 0 auto;

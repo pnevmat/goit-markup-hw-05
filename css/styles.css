@@ -1,7 +1,6 @@
 /* Styles for index.html */
 /* hero */
 .header {
-    background-color: #757575;
     color: var(--secondary-text-color);
     font-weight: 900;
     font-size: 44px;
@@ -9,9 +8,6 @@
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
-    margin-bottom: 30px;
-    outline: 2px solid tomato;
 }
 .hero-conteiner {
     margin: 0 auto 94px auto;
@@ -26,7 +22,22 @@
         url("../img/Header-img.jpg");
     /* background-size: cover; */
 }
+.conteiner-header {
+    width: 700px;
+    height: 120px;
+    margin: 0 auto 0 auto;
+}
+.button.absolute {
+    top: 330px;
+    right: 700px;
+}
 .button {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
     background-color: var(--primary-page-color);
     color: var(--secondary-text-color);
     font-weight: 700;
@@ -34,8 +45,6 @@
     line-height: 1.87;
     letter-spacing: 0.06em;
     text-decoration: none;
-
-    outline: 2px solid tomato;
 }
 /* main */
 .main {
@@ -72,7 +81,6 @@
     outline: 2px solid tomato;
 }
 .features.customize {
-    background-color: #757575;
     color: var(--secondary-text-color);
 }
 .section-text {
@@ -90,6 +98,60 @@
     padding-right: 15px;
     outline: 2px solid tomato;
 }
+.features-items {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-radius: 4px;
+
+    background-color: #F5F4FA;
+}
+.clients-items {
+    display: flex;
+    width: 170px;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+.clients-items .icon {
+    width: 44px;
+    height: 49px;
+    margin-bottom: 0;
+
+    fill: #AFB1B8;   
+}
+.tagline.icon {
+    width: 40px;
+    height: 52px;
+}
+.company.icon {
+    width: 41px;
+    height: 43px;
+}
+.foster-peters.icon {
+    width: 80px;
+    height: 42px;
+}
+.brand.icon {
+    width: 59px;
+    height: 47px;
+}
+.tag-line.icon {
+    width: 89px;
+    height: 45px;
+}
+.clients-link:hover,
+.clients-link:focus,
+.clients-items:hover,
+.clients-items:focus {
+    fill: var(--primary-page-color);
+    border-color: var(--primary-page-color);
+}
 .ul .items {
     align-items: flex-start;
 }
@@ -102,20 +164,29 @@
 .ul .team-item:not(:last-child) {
     margin-right: 10px;
 }
+.relative {
+    position: relative;
+}
 .l {
     width: 370px;
     text-align: center;
 }
-.we-do {
-    width: 370px;
-    height: 294px;
-    background-color: rgba(47, 48, 58, 0.8);
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.8),
-        rgba(47, 48, 58, 0.8)),
-        url("../img/noteboock.jpg");
-    background-size: cover;
+.absolute {
+    position: absolute;
+    top: 224px;
+    right: -1px;
+}
+.header.absolute {
+    top: 200px;
+    right: 430px;
+    left: 430px;
+}
+.l.absolute {
+    top: 251px;
+}
+.absolute.desine-desisions {
+    top: 343px;
+    right: 490px;
 }
 .ul.items {
     align-content: flex-end;
@@ -123,7 +194,6 @@
 .icon {
     width: 70px;
     height: 70px;
-    margin-bottom: 55px;
 
     fill: #AFB1B8;
 }
