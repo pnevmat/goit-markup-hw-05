@@ -1,0 +1,242 @@
+/* Styles for index.html */
+/* hero */
+.header {
+    background-color: #757575;
+    color: var(--secondary-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    margin-bottom: 30px;
+    outline: 2px solid tomato;
+}
+.hero-conteiner {
+    margin: 0 auto 94px auto;
+    max-width: 1600px;
+    height: 600px;
+    outline: 2px solid tomato;
+    background-color: rgba(47, 48, 58, 0.8);
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.8),
+        rgba(47, 48, 58, 0.8)),
+        url("../img/Header-img.jpg");
+    /* background-size: cover; */
+}
+.button {
+    background-color: var(--primary-page-color);
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+
+    outline: 2px solid tomato;
+}
+/* main */
+.main {
+    text-align: center;
+}
+/* sections */
+.section {
+    color: #212121;
+    font-weight: 700;
+    line-height: 1.14;
+
+
+    outline: 2px solid lime;
+}
+.section-header {
+    background-color: var(--secondary-page-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: none;
+
+    margin-bottom: 50px;
+    outline: 2px solid tomato;
+}
+.features {
+    text-align: left;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+    outline: 2px solid tomato;
+}
+.features.customize {
+    background-color: #757575;
+    color: var(--secondary-text-color);
+}
+.section-text {
+    text-align: left;
+    color: #757575;
+    font-weight: 400;
+    line-height: 1.71;
+
+    outline: 2px solid tomato;
+}
+.conteiner {
+    margin: 0 auto 94px auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid tomato;
+}
+.ul .items {
+    align-items: flex-start;
+}
+.ul .items:not(:last-child) {
+    margin-right: 30px;
+}
+.items-width {
+    width: 270px;
+}
+.ul .team-item:not(:last-child) {
+    margin-right: 10px;
+}
+.l {
+    width: 370px;
+    text-align: center;
+}
+.we-do {
+    width: 370px;
+    height: 294px;
+    background-color: rgba(47, 48, 58, 0.8);
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.8),
+        rgba(47, 48, 58, 0.8)),
+        url("../img/noteboock.jpg");
+    background-size: cover;
+}
+.ul.items {
+    align-content: flex-end;
+}
+.icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 55px;
+
+    fill: #AFB1B8;
+}
+/* our team */
+.teammate-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+
+    margin-bottom: 10px;
+    outline: 2px solid tomato;
+}
+.teammate-name.section-text {
+    text-align: center;
+    font-weight: 400;
+
+    margin-bottom: 16px;
+}
+.section-link {
+    color: #AFB1B8;
+    text-decoration: none;
+
+    outline: 2px solid tomato;
+}
+.section-link:hover, .section-link:focus {
+    color: var(--primary-page-color);
+}
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.photo-margin {
+    margin-bottom: 30px;
+}
+.social-link.icon {
+    width: 44px;
+    height: 44px;
+    padding: 12px 12px;
+    margin-bottom: 0;
+
+    outline: 2px solid tomato;
+}
+.social-link:hover,
+.social-link:focus {
+    fill: var(--secondary-page-color);
+    background-color: var(--primary-page-color);
+    border-radius: 20px;
+}
+/* Styles for portfolio.html */
+/* main */
+
+/* buttons */
+.portfolio-button {
+    background-color: #F5F4FA;
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
+.portfolio-button:hover, .portfolio-button:focus {
+    background-color: var(--primary-page-color);
+    color: var(--secondary-text-color);
+}
+.ul.portfolio-button {
+    justify-content: center;
+}
+/* portfolio */
+.portfolio-header {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    outline: 2px solid tomato;
+}
+.portfolio-text {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    outline: 2px solid tomato;
+}
+.portfolio-text.hover {
+    background-color: rgba(33, 150, 243, 0.9);
+    color: var(--secondary-text-color);
+    font-size: 18px;
+    line-height: 1.56;
+}
+.header-conteiner.customize {
+    margin: 0 auto 94px auto;
+}
+.conteiner.customize {
+    margin: 0 auto 34px auto;
+    padding: 0 0 16px 0;
+}
+.portfolio.conteiner {
+    margin-right: auto;
+    margin-left: auto;
+}
+.portfolio.items {
+    width: 370px;
+}
+.ul.portfolio:nth-child(n+1) {
+    flex-wrap: wrap;
+}
+.ul .portfolio:nth-child(3n) {
+    margin-right: 0px;
+}
+.portfolio .items {
+    margin-bottom: 30px;
+}
+.portfolio .items:nth-last-child(-n + 3){
+    margin-bottom: 0;   
+}
