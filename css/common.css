@@ -68,8 +68,26 @@ ul {
 .ul .item:not(:last-child) {
     margin-right: 50px;
 }
+.item {
+    position: relative;
+}
+.decor::before {
+    position: absolute;
+    top: 76px;
+    left: 0;
+    content: '';
+    width: 47px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--primary-page-color);
+    opacity: 0;
+
+}
 .nav-link.current {
     color: var(--primary-page-color);
+}
+.current .decor::before {
+    opacity: 1;
 }
 .nav-link.contact {
     color: #757575;
@@ -86,14 +104,14 @@ ul {
 
     fill: #AFB1B8;
 }
-.nav-link:hover,
-.nav-link:focus,
 .header-mail:hover,
 .header-mail:focus,
 .header-phone:hover,
-.header-phone:focus {
-    color: var(--primary-page-color);
+.header-phone:focus,
+.nav-link:hover,
+.nav-link:focus {
     fill: var(--primary-page-color);
+    color: var(--primary-page-color);
 }
 .header-conteiner {
     margin: 0 auto 0 auto;

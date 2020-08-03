@@ -174,7 +174,16 @@
 .absolute {
     position: absolute;
     top: 224px;
-    right: -1px;
+    right: 0px;
+}
+.absolute-layer::before {
+    position: absolute;
+    top: 224px;
+    right: 0px;
+    content: '';
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
 }
 .header.absolute {
     top: 200px;
@@ -263,7 +272,13 @@
     justify-content: center;
 }
 /* portfolio */
+.portfolio-conteiner {
+    padding: 20px 24px;
+    text-align: left;
+}
 .portfolio-header {
+    margin-bottom: 4px;
+    text-align: left;
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 18px;
@@ -278,11 +293,26 @@
     line-height: 1.88;
     outline: 2px solid tomato;
 }
-.portfolio-text.hover {
-    background-color: rgba(33, 150, 243, 0.9);
+.hover-text {
     color: var(--secondary-text-color);
     font-size: 18px;
     line-height: 1.56;
+}
+.hover-block {
+    width: 370px;
+    height: 294px;
+    padding: 63px 24px;
+    text-align: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    background-color: rgba(33, 150, 243, 0.9);
+    opacity: 0;
+}
+.hover-block:hover {
+    background-color: rgba(33, 150, 243, 0.9);
+    opacity: 1;
 }
 .header-conteiner.customize {
     margin: 0 auto 94px auto;
@@ -296,6 +326,7 @@
     margin-left: auto;
 }
 .portfolio.items {
+    position: relative;
     width: 370px;
 }
 .ul.portfolio:nth-child(n+1) {
