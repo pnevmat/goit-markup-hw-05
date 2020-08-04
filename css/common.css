@@ -76,7 +76,7 @@ ul {
     top: 76px;
     left: 0;
     content: '';
-    width: 47px;
+    width: calc(100% - 2px);
     height: 4px;
     border-radius: 2px;
     background-color: var(--primary-page-color);
@@ -90,26 +90,28 @@ ul {
     opacity: 1;
 }
 .nav-link.contact {
+    display: flex;
+    align-items: center;
     color: #757575;
 }
 .header-mail.icon {
     width: 16px;
     height: 11px;
+    margin-right: 10px;
 
     fill: #AFB1B8;
 }
 .header-phone.icon {
     width: 10px;
     height: 15px;
+    margin-right: 10px;
 
     fill: #AFB1B8;
 }
-.header-mail:hover,
-.header-mail:focus,
-.header-phone:hover,
-.header-phone:focus,
-.nav-link:hover,
-.nav-link:focus {
+.item:hover .nav-link,
+.item:focus .nav-link,
+.item:hover .icon,
+.item:focus .icon {
     fill: var(--primary-page-color);
     color: var(--primary-page-color);
 }

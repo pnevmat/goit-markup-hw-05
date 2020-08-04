@@ -227,8 +227,10 @@
 
     outline: 2px solid tomato;
 }
-.section-link:hover, .section-link:focus {
+.section-link:hover .icon,
+.section-link:focus .icon {
     color: var(--primary-page-color);
+    fill: var(--primary-page-color);
 }
 .team {
     padding-top: 94px;
