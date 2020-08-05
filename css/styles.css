@@ -38,6 +38,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 4px;
+
     background-color: var(--primary-page-color);
     color: var(--secondary-text-color);
     font-weight: 700;
@@ -239,19 +240,27 @@
 .photo-margin {
     margin-bottom: 30px;
 }
-.social-link.icon {
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 44px;
     height: 44px;
-    padding: 12px 12px;
     margin-bottom: 0;
+    border-radius: 50%;
 
     outline: 2px solid tomato;
 }
+.social-link .icon {
+    width: 20px;
+    height: 20px;
+}
 .social-link:hover,
-.social-link:focus {
+.social-link:focus,
+.social-link:hover .icon,
+.social-link:focus .icon {
     fill: var(--secondary-page-color);
     background-color: var(--primary-page-color);
-    border-radius: 20px;
 }
 /* Styles for portfolio.html */
 /* main */
