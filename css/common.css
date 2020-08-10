@@ -125,6 +125,9 @@ ul {
     border-bottom: 1px solid #ECECEC;
     /* outline: 2px solid tomato; */
 }
+.header-conteiner.portfolio-page {
+    margin-bottom: 94px;
+}
 /* footer */
 .footer {
     max-width: 1600px;
