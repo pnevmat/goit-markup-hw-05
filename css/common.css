@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6, ul, p {
 ul {
     list-style: none;
 }
+
 /* logo style */
 .logo {
     color: var(--primary-page-color);
@@ -55,7 +56,7 @@ ul {
 .nav-link {
     display: block;
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 31px;
 }
 .ul {
     display: flex;
@@ -118,15 +119,20 @@ ul {
 }
 .header-conteiner {
     margin: 0 auto 0 auto;
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    outline: 2px solid tomato;
+    max-width: 1600px;
+    padding-left: 215px;
+    padding-right: 215px;
+    border-bottom: 1px solid #ECECEC;
+    /* outline: 2px solid tomato; */
 }
 /* footer */
 .footer {
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
     color: #ffffff;
     line-height: 1.14;
+    background-color: #2F303A;
 }
 .footer.section-header {
     background-color: #2F303A;
@@ -152,8 +158,8 @@ ul {
     padding-bottom: 60px;
     padding-left: 15px;
 
-    background-color: #2F303A;
-    outline: 2px solid tomato;
+    /* background-color: #2F303A; */
+    /* outline: 2px solid tomato; */
 }
 .footer-conteiner.ul {
     align-items: baseline;
@@ -187,7 +193,7 @@ ul {
 
     background-color: rgba(255, 255, 255, 0.1);
 
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
 }
 .follow-us-link .icon {
     width: 20px;
