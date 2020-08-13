@@ -48,7 +48,7 @@
             <section>
                 <div class="hero-conteiner relative">
                     <h1 class="header absolute">Эффективные решения для вашего бизнеса</h1>
-                    <a href="" target="_blank" rel="noopener noreferrer" class="button absolute">Заказать услугу</a>
+                    <button class="button absolute" data-modal-open>Заказать услугу</button>
                 </div>
             </section>
             <section class="section">
@@ -408,5 +408,19 @@
                 </div>
             </div>
         </footer>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button class="modal-button" data-modal-close>
+                    <svg class="icon">
+                        <use href="./img/symbol-defs.svg#x-icon">
+                        </use>
+                    </svg>
+                </button>
+                <div class="modal-content">
+                    <p>ffgghhjhj</p>
+                </div>
+            </div>
+        </div>
+        <script src="js/modal.js"></script>
     </body>
 </html>
